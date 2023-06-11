@@ -12,6 +12,3 @@ package-lock.json
 /public
 
 # Firebase
-.firebase
-firebase.json
-.firebaserc
