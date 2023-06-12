@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Construct from "../construct.png"
+    import Construct from "../routes/images/construct.png"
 
     export let pageName = ""
     export let project = true || false

@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  import Waving from "../waving.png"
+  import Waving from "../routes/images/waving.png"
   import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
 
-<!--Start Head-->
+<head>
   <title>JB Stepan</title>
-<!--End Head-->
+  <meta name="description" content="The site for all things JB Stepan">
+</head>
 
 <main>
 
@@ -24,25 +24,6 @@
   </div>
 
   <p>Currently working on various projects</p>
-
-  <!-- <dialog class="contact-modal" id="contactModal">
-    <h1>Contact Form</h1>
-    
-    <form method="dialog" on:submit|preventDefault={sendContact}>
-      <input required bind:value={contactValus.email} type="text" style="margin: 4px;" placeholder="Email..."><br>
-      <input required bind:value={contactValus.name} type="text" style="margin: 4px;" placeholder="Name..."><br>
-      <select required bind:value={contactValus.regarding} style="margin: 4px;"><br>
-        <option value="business">Bussiness Inquiry</option>
-        <option value="job">Job Offering</option>
-        <option value="question">Question</option>
-        <option value="other">Other</option>
-      </select><br>
-      <textarea required bind:value={contactValus.content}  style="resize:none; margin: 4px;" rows="8" placeholder="Explain..."></textarea><br>
-      <button class="normal-btn" type="submit" style="font-size: large;">Submit 📨</button>
-    </form>
-
-    <button class="normal-btn" on:click={closeContactModal}>Close</button>
-  </dialog> -->
 
   <a href="mailto:jbstepan@jbstepan.com">
     <button class="contactbtn">📩 Get in touch</button>
@@ -132,16 +113,19 @@
   }
 
   li a {
+    transition: 500ms;
     padding: 4px 15px;
     color: rgb(78, 72, 232);
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
+    scale: 1;
   }
 
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     color: rgb(128, 124, 242);
+    scale: 1.5;
   }
 
   .normal-btn:hover {
@@ -168,22 +152,4 @@
     outline-color: white;
     outline: black;
   }
-/* 
-  dialog {
-    display: block;
-    transition: all 800ms;
-    opacity: 0;
-    scale: 0;
-    padding: 15px;
-  }
-
-  dialog[open] {
-    opacity: 1;
-    scale: 1.5;
-  }
-  
-  dialog::backdrop {
-    background-color: rgba(14, 14, 14, 0.456);
-  } */
-
 </style>
