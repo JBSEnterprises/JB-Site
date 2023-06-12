@@ -11,6 +11,7 @@ name: Deploy to Firebase Hosting on merge
       - '.github/'
       - '.gitignore'
       - 'LICENSE'
+      - 'functions/'
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
