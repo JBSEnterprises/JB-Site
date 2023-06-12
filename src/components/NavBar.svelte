@@ -1,0 +1,43 @@
+<script lang="ts">
+
+</script>
+
+<ul class="nav">
+    <li class="navItem"><a href="/projects">Projects</a></li>
+    <li class="navItem"><a href="/blog">Blog</a></li>
+</ul>
+
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        top: 15px;
+        width: 100%;
+        background-color: #242424;  
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a {
+        transition: 500ms;
+        padding: 4px 15px;
+        color: rgb(78, 72, 232);
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        scale: 1;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        color: rgb(128, 124, 242);
+        scale: 1.5;
+    }
+</style>

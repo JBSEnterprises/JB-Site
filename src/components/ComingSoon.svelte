@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Construct from "../routes/images/construct.png"
+    import Construct from "../images/construct.png"
 
     export let pageName = ""
     export let project = true || false
@@ -17,28 +17,14 @@
 </main>
 
 <style>
-    :root {
-        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-        line-height: 1.5;
-        font-weight: 400;
-
-        color-scheme: light dark;
-        color: rgba(255, 255, 255, 0.87);
-        background-color: #242424;
-
-        font-synthesis: none;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-text-size-adjust: 100%;
-    }
-  
     main {
         text-align: center;
         margin-top: 10rem;
     }
 
     a {
+        transition: 500ms;
+        scale: 1;
         color: rgb(78, 72, 232);
         text-decoration: none;
         font-weight: bold;
@@ -46,5 +32,6 @@
 
     a:hover {
         color: rgb(128, 124, 242);
+        scale: 1.5;
     }
 </style>

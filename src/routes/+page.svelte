@@ -1,6 +1,8 @@
 <script lang="ts">
-  import Waving from "../routes/images/waving.png"
+  import Waving from "../images/waving.png"
   import SocialIcons from '@rodneylab/svelte-social-icons';
+  import NavBar from "../components/NavBar.svelte";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <head>
@@ -10,11 +12,7 @@
 
 <main>
 
-  <ul class="nav">
-    <li class="navItem"><a href="/weather">Weather</a></li>
-    <li class="navItem"><a href="/spacegame">Space game</a></li>
-    <li class="navItem"><a href="/blog">Blog</a></li>
-  </ul>
+  <NavBar />
 
   <img src={Waving} alt="">
   <div class="name">
@@ -40,10 +38,7 @@
     <SocialIcons network="twitter" fgColor="white"/>
   </a>
 
-  <footer class="footer">
-    Copyright © Jakob O'Toole Stepan. All rights reserved.
-    jbstepan@jbstepan.com
-  </footer>
+  <Footer />
   
 </main>
 
@@ -87,46 +82,8 @@
     cursor: pointer;
   }
 
-  .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: gray;
-    text-align: center;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    top: 15px;
-    width: 100%;
-    background-color: #242424;  
-  }
-
-  li {
-    display: inline;
-  }
-
-  li a {
-    transition: 500ms;
-    padding: 4px 15px;
-    color: rgb(78, 72, 232);
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    scale: 1;
-  }
-
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    color: rgb(128, 124, 242);
-    scale: 1.5;
-  }
+  
+  
 
   .normal-btn:hover {
     transition: 300ms;

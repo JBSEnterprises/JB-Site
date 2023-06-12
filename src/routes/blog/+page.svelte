@@ -1,5 +1,6 @@
 <script lang="ts">   
-    import ComingSoon from "../../components/ComingSoon.svelte";
+  import ComingSoon from "../../components/ComingSoon.svelte";
+  import Footer from "../../components/Footer.svelte";
 </script>
 
 <!--Start Head-->
@@ -7,5 +8,6 @@
 <!--End Head-->
 
 <main>
-    <ComingSoon pageName="Blog" project={false}/>
+  <ComingSoon pageName="Blog" project={false}/>
+  <Footer />
 </main>
