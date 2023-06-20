@@ -38,6 +38,10 @@
     <SocialIcons network="twitter" fgColor="white"/>
   </a>
 
+  <a class="social-icon" href="https://medium.com/@jbstepan">
+    <SocialIcons network="medium" fgColor="white"/>
+  </a>
+
   <Footer />
   
 </main>
