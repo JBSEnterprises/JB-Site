@@ -34,12 +34,12 @@
     main {
         display: flexbox;
         justify-content: center;
-        text-align: center;        
+        text-align: center;
         padding: 15px;
-        margin: 25px;
-        margin-left: 25rem;
-        margin-right: 25rem;
+        margin: 5rem;
+        width: auto;
         border: 2px solid rgba(255, 255, 255, 0.87);
+        overflow: auto;
     }
 
     a {

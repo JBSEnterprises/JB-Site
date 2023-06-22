@@ -9,9 +9,9 @@
     <img src={Construct} alt="Under construction">
     <h1>Woah!</h1>
     {#if project == true}
-        <p>You've stumbled upon a project that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following me on Twitter!</p>
+        <p>You've stumbled upon a project that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following my Blog!</p>
     {:else}
-        <p>You've stumbled upon a page that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following me on Twitter!</p>
+        <p>You've stumbled upon a page that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following my Blog!</p>
     {/if}
     <a href="/">Back home</a>
 </main>

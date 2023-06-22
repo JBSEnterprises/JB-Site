@@ -30,7 +30,7 @@
   <br>
   <br>
 
-  <a href="https://www.github.com/jbstepan">
+  <a class="social-icon" href="https://www.github.com/jbstepan">
     <SocialIcons network="github" fgColor="white"/>
   </a>
 
@@ -41,6 +41,12 @@
   <a class="social-icon" href="https://medium.com/@jbstepan">
     <SocialIcons network="medium" fgColor="white"/>
   </a>
+
+  <a class="social-icon" href="https://discord.com/invite/9xJEzqYNQ7">
+    <SocialIcons network="discord" fgColor="white"/>
+  </a>
+
+  
 
   <Footer />
   
