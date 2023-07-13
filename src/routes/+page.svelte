@@ -46,6 +46,10 @@
     <SocialIcons network="discord" fgColor="white"/>
   </a>
 
+  <a class="social-icon" href="https://t.me/jbstepantelegram">
+    <SocialIcons network="telegram" fgColor="white"/>
+  </a>
+
   
 
   <Footer />
