@@ -8,6 +8,6 @@
 <!--End Head-->
 
 <main>
-  <ComingSoon pageName="Space Game" project={true}/>
+  <ComingSoon pageName="Space Game"/>
   <Footer />
 </main>

@@ -36,7 +36,6 @@
         scale: 1;
     }
 
-    /* Change the link color to #111 (black) on hover */
     li a:hover {
         color: rgb(128, 124, 242);
         scale: 1.5;

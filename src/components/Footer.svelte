@@ -19,26 +19,19 @@
     <SocialIcons network="discord" fgColor="white"/>
   </a>
 
-  <a class="social-icon" href="https://t.me/jbstepantelegram">
-    <SocialIcons network="telegram" fgColor="white"/>
-  </a>
-
-
-<footer class="footer">
+  <footer class="footer">
     Copyright © Jakob O'Toole Stepan. All rights reserved.
-    jbstepan@jbstepan.com
-</footer>
+  </footer>
 </main>
 
 
 
 <style>
 main {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: gray;
-    text-align: center;
-  }
-
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-align: center;
+}
 </style>

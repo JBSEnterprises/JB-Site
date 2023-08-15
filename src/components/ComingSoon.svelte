@@ -2,18 +2,13 @@
     import Construct from "../images/construct.png"
 
     export let pageName = ""
-    export let project = true || false
 </script>
 
 <main>
     <img src={Construct} alt="Under construction">
     <h1>Woah!</h1>
-    {#if project == true}
-        <p>You've stumbled upon a project that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following my Blog!</p>
-    {:else}
-        <p>You've stumbled upon a page that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following my Blog!</p>
-    {/if}
-    <a href="/">Back home</a>
+    <p>You've stumbled upon something that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following my Blog!</p>
+    <a href="/projects">Back</a>
 </main>
 
 <style>

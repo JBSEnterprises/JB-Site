@@ -33,26 +33,27 @@
 
     main {
         display: flexbox;
-        justify-content: center;
-        text-align: center;
+        text-align: left;
+        margin-top: 0;
         padding: 15px;
         margin: 5rem;
         width: auto;
-        border: 2px solid rgba(255, 255, 255, 0.87);
+        border: 5px solid rgba(187, 185, 185, 0.87);
+        border-radius: 25px;
         overflow: auto;
     }
 
     a {
         transition: 500ms;
+        transform: scale(1);
         color: rgb(78, 72, 232);
         text-decoration: none;
         font-weight: bold;
-        scale: 1;
     }
 
     /* Change the link color to #111 (black) on hover */
     a:hover {
         color: rgb(128, 124, 242);
-        scale: 1.5;
+        transform: scale(1.5);
     }
 </style>

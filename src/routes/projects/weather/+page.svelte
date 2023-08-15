@@ -8,6 +8,7 @@
 <!--End Head-->
 
 <main>
-  <ComingSoon pageName="JB Weather" project={true}/>
+  <ComingSoon pageName="JB Weather" />
+  <br>
   <Footer />
 </main>
