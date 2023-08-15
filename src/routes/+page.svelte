@@ -30,9 +30,12 @@
   <br>
 
 
+<<<<<<< HEAD
 
   
 
+=======
+>>>>>>> ea1aef4d571f1423bfeb98da88c15a4d61df2fe1
   <Footer />
   
 </main>
