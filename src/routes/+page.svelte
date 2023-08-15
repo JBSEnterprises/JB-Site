@@ -1,6 +1,5 @@
 <script lang="ts">
   import Waving from "../images/waving.png"
-  import SocialIcons from '@rodneylab/svelte-social-icons';
   import NavBar from "../components/NavBar.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
@@ -30,25 +29,7 @@
   <br>
   <br>
 
-  <a class="social-icon" href="https://www.github.com/jbstepan">
-    <SocialIcons network="github" fgColor="white"/>
-  </a>
 
-  <a class="social-icon" href="https://www.twitter.com/jbstepan">
-    <SocialIcons network="twitter" fgColor="white"/>
-  </a>
-
-  <a class="social-icon" href="https://medium.com/@jbstepan">
-    <SocialIcons network="medium" fgColor="white"/>
-  </a>
-
-  <a class="social-icon" href="https://discord.com/invite/9xJEzqYNQ7">
-    <SocialIcons network="discord" fgColor="white"/>
-  </a>
-
-  <a class="social-icon" href="https://t.me/jbstepantelegram">
-    <SocialIcons network="telegram" fgColor="white"/>
-  </a>
 
   
 

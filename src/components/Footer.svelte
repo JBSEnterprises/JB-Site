@@ -1,14 +1,39 @@
 <script>
-
+  import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
+
+<main>
+    <a class="social-icon" href="https://www.github.com/jbstepan">
+    <SocialIcons network="github" fgColor="white"/>
+  </a>
+
+  <a class="social-icon" href="https://www.twitter.com/jbstepan">
+    <SocialIcons network="twitter" fgColor="white"/>
+  </a>
+
+  <a class="social-icon" href="https://medium.com/@jbstepan">
+    <SocialIcons network="medium" fgColor="white"/>
+  </a>
+
+  <a class="social-icon" href="https://discord.com/invite/9xJEzqYNQ7">
+    <SocialIcons network="discord" fgColor="white"/>
+  </a>
+
+  <a class="social-icon" href="https://t.me/jbstepantelegram">
+    <SocialIcons network="telegram" fgColor="white"/>
+  </a>
+
 
 <footer class="footer">
     Copyright © Jakob O'Toole Stepan. All rights reserved.
     jbstepan@jbstepan.com
 </footer>
+</main>
+
+
 
 <style>
-.footer {
+main {
     left: 0;
     bottom: 0;
     width: 100%;

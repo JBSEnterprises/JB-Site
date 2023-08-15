@@ -3,9 +3,9 @@
 </script>
 
 <ul class="nav">
-    <li class="navItem"><a href="/">Home</a></li>
-    <li class="navItem"><a href="/projects">Projects</a></li>
-    <li class="navItem"><a href="https://medium.com/@jbstepan">Blog</a></li>
+    <li id="navcomp" class="navItem"><a href="/">Home</a></li>
+    <li id="navcomp" class="navItem"><a href="/projects">Projects</a></li>
+    <li id="navcomp" class="navItem"><a href="https://medium.com/@jbstepan">Blog</a></li>
 </ul>
 
 <style>
