@@ -8,6 +8,6 @@
 <!--End Head-->
 
 <main>
-  <ComingSoon pageName="Blog" />
+  
   <Footer />
 </main>

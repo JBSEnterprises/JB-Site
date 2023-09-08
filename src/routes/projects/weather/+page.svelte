@@ -3,9 +3,9 @@
   import Footer from "../../../components/Footer.svelte";
 </script>
 
-<!--Start Head-->
-  <title>JB Weather</title>
-<!--End Head-->
+<svelte:head>
+    <title>JB Weather</title>
+</svelte:head>
 
 <main>
   <ComingSoon pageName="JB Weather" />

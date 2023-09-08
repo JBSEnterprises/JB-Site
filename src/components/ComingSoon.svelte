@@ -2,13 +2,14 @@
     import Construct from "../images/construct.png"
 
     export let pageName = ""
+    export let backLink = "" || "/projects"
 </script>
 
 <main>
     <img src={Construct} alt="Under construction">
     <h1>Woah!</h1>
     <p>You've stumbled upon something that is currently being worked on 🤯! <br> Stay tuned for updates on <b>{pageName}</b> by following my Blog!</p>
-    <a href="/projects">Back</a>
+    <a href={backLink}>Back</a>
 </main>
 
 <style>

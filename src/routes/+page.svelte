@@ -13,6 +13,10 @@
 
   <NavBar />
 
+  <div class="warning">
+    <h2 style="color: white;">Site to be moved to own backend! Please stay tuned! 😎</h2>
+  </div>
+
   <img src={Waving} alt="">
   <div class="name">
     <h1>Hi, I'm Jakob</h1>
@@ -23,7 +27,7 @@
   <p>Currently working on various projects</p>
 
   <a href="mailto:jbstepan@jbstepan.com">
-    <button class="contactbtn">📩 Get in touch</button>
+    <button class="contactbtn"><a style="text-decoration: none;" href="/contact">📩 Get in touch</a></button>
   </a>
 
   <br>
@@ -55,6 +59,10 @@
     margin-top: 6.5rem;
   }
   
+  a {
+    color: black;
+  }
+
   .name {
     margin: 0;
     padding: 15px;
@@ -73,9 +81,6 @@
     cursor: pointer;
   }
 
-  
-  
-
   .normal-btn:hover {
     transition: 300ms;
     background-color: rgb(188, 188, 188);
@@ -91,6 +96,7 @@
     border: transparent;
     font-size: xx-large;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .contactbtn:hover {
@@ -99,5 +105,12 @@
     background-color: rgb(188, 188, 188);
     outline-color: white;
     outline: black;
+    text-decoration: none;
+  }
+
+  .warning { 
+    background-color: red;
+    margin: 10px;
+    padding: 4px;
   }
 </style>
