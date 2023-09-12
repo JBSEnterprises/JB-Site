@@ -5,7 +5,7 @@
 <ul class="nav">
     <li id="navcomp" class="navItem"><a href="/">Home</a></li>
     <li id="navcomp" class="navItem"><a href="/projects">Projects</a></li>
-    <li id="navcomp" class="navItem"><a href="https://medium.com/@jbstepan">Blog</a></li>
+    <li id="navcomp" class="navItem"><a href="/blog">Blog</a></li>
 </ul>
 
 <style>

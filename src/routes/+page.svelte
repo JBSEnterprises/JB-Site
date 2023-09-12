@@ -1,26 +1,24 @@
+<svelte:head>
+  <title>JB Stepan</title>
+  <meta name="description" content="The site for all things JB Stepan">
+</svelte:head>
+
 <script lang="ts">
-  import Waving from "../images/waving.png"
+  // import Waving from "../images/waving.png"
+  import logo from "../images/logo.svg"
   import NavBar from "../components/NavBar.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
-
-<head>
-  <title>JB Stepan</title>
-  <meta name="description" content="The site for all things JB Stepan">
-</head>
 
 <main>
 
   <NavBar />
 
-  <img src={Waving} alt="">
+  <img src={logo} width="512" alt="">
   <div class="name">
-    <h1>Hi, I'm Jakob</h1>
-    <span>Alias: JB Stepan</span>
+    <h1>Hi, I'm Jakob or JB</h1>
     <p>A student and hobbiest programmer</p>
   </div>
-
-  <p>Currently working on various projects</p>
 
   <a href="mailto:jbstepan@jbstepan.com">
     <button class="contactbtn">📩 Get in touch</button>
@@ -71,14 +69,6 @@
     outline: transparent;
     border: transparent;
     cursor: pointer;
-  }
-
-  
-  
-
-  .normal-btn:hover {
-    transition: 300ms;
-    background-color: rgb(188, 188, 188);
   }
 
   .contactbtn {

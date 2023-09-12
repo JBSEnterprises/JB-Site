@@ -6,9 +6,9 @@
 </script>
 
 <main>
-    {#if img != undefined}
+    <!-- {#if img != undefined}
         <img src={img} alt="">
-    {/if}
+    {/if} -->
     <h1>{name}</h1>
     <p>{desc}</p>
     <a href={link}>Learn More!</a>
