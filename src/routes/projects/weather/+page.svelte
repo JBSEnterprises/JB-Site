@@ -1,8 +1,3 @@
-<svelte:head>
-    <title>JB Weather</title>
-</svelte:head>
-
-
 <script lang="ts">   
   import ComingSoon from "../../../components/ComingSoon.svelte";
   import Footer from "../../../components/Footer.svelte";
