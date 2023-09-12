@@ -24,14 +24,14 @@
   <a href="https://jbstepan.statuspage.io">
     Status
   </a>
-  -
+  <!-- -
   <a href="/terms">
     Terms
   </a>
   -
   <a href="/privacy-policy">
     Privacy Policy
-  </a>
+  </a> -->
 
   <footer class="footer">
     Copyright © Jakob O'Toole Stepan. All rights reserved.
