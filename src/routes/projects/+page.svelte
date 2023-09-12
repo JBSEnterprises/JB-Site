@@ -1,7 +1,3 @@
-<svelte:head>
-    <title>Projects</title>
-</svelte:head>
-
 <script lang="ts">
     import CommingSoonCard from "../../components/CommingSoonCard.svelte";
     import NavBar from "../../components/NavBar.svelte";

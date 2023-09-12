@@ -14,23 +14,24 @@
 
   <NavBar />
 
-<<<<<<< HEAD
-  <img src={logo} width="512" alt="">
-=======
+
   <div class="warning">
     <h2 style="color: white;">Site to be moved to own backend! Please stay tuned! 😎</h2>
   </div>
+  
+  <br>
 
-  <img src={Waving} alt="">
->>>>>>> 98bdd58aa8c73b3dd45f316c8978144ef39ead20
+  <img src={logo} width="512" alt="">
   <div class="name">
     <h1>Hi, I'm Jakob or JB</h1>
     <p>A student and hobbiest programmer</p>
   </div>
 
-  <a href="mailto:jbstepan@jbstepan.com">
-    <button class="contactbtn"><a style="text-decoration: none;" href="/contact">📩 Get in touch</a></button>
+  <a class="contact-link" style="text-decoration: none;" href="/contact">
+    <button class="contactbtn">📩 Get in touch</button>
   </a>
+  <br>
+  <a href="mailto:jbstepan@jbstepan.com">Or E-Mail</a>
 
   <br>
   <br>
@@ -60,8 +61,8 @@
     text-align: center;
     margin-top: 6.5rem;
   }
-  
-  a {
+
+  .contact-link {
     color: black;
   }
 
@@ -83,14 +84,6 @@
     cursor: pointer;
   }
 
-<<<<<<< HEAD
-=======
-  .normal-btn:hover {
-    transition: 300ms;
-    background-color: rgb(188, 188, 188);
-  }
-
->>>>>>> 98bdd58aa8c73b3dd45f316c8978144ef39ead20
   .contactbtn {
     transition: 300ms;
     transform: scale(1);
