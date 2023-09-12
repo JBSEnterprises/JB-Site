@@ -8,6 +8,6 @@
 </script>
 
 <main>
-  <ComingSoon pageName="Blog" />
+  
   <Footer />
 </main>

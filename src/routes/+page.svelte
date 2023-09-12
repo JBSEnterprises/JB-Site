@@ -14,14 +14,22 @@
 
   <NavBar />
 
+<<<<<<< HEAD
   <img src={logo} width="512" alt="">
+=======
+  <div class="warning">
+    <h2 style="color: white;">Site to be moved to own backend! Please stay tuned! 😎</h2>
+  </div>
+
+  <img src={Waving} alt="">
+>>>>>>> 98bdd58aa8c73b3dd45f316c8978144ef39ead20
   <div class="name">
     <h1>Hi, I'm Jakob or JB</h1>
     <p>A student and hobbiest programmer</p>
   </div>
 
   <a href="mailto:jbstepan@jbstepan.com">
-    <button class="contactbtn">📩 Get in touch</button>
+    <button class="contactbtn"><a style="text-decoration: none;" href="/contact">📩 Get in touch</a></button>
   </a>
 
   <br>
@@ -53,6 +61,10 @@
     margin-top: 6.5rem;
   }
   
+  a {
+    color: black;
+  }
+
   .name {
     margin: 0;
     padding: 15px;
@@ -71,6 +83,14 @@
     cursor: pointer;
   }
 
+<<<<<<< HEAD
+=======
+  .normal-btn:hover {
+    transition: 300ms;
+    background-color: rgb(188, 188, 188);
+  }
+
+>>>>>>> 98bdd58aa8c73b3dd45f316c8978144ef39ead20
   .contactbtn {
     transition: 300ms;
     transform: scale(1);
@@ -81,6 +101,7 @@
     border: transparent;
     font-size: xx-large;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .contactbtn:hover {
@@ -89,5 +110,12 @@
     background-color: rgb(188, 188, 188);
     outline-color: white;
     outline: black;
+    text-decoration: none;
+  }
+
+  .warning { 
+    background-color: red;
+    margin: 10px;
+    padding: 4px;
   }
 </style>
