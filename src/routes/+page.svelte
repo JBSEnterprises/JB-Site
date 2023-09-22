@@ -4,7 +4,6 @@
 </svelte:head>
 
 <script lang="ts">
-  // import Waving from "../images/waving.png"
   import logo from "../images/logo.svg"
   import NavBar from "../components/NavBar.svelte";
   import Footer from "../components/Footer.svelte";
@@ -14,14 +13,7 @@
 
   <NavBar />
 
-
-  <div class="warning">
-    <h2 style="color: white;">Site to be moved to own backend! Please stay tuned! 😎</h2>
-  </div>
-  
-  <br>
-
-  <img src={logo} width="512" alt="">
+  <img src={logo} width=512 alt="">
   <div class="name">
     <h1>Hi, I'm Jakob or JB</h1>
     <p>A student and hobbiest programmer</p>
@@ -31,7 +23,7 @@
     <button class="contactbtn">📩 Get in touch</button>
   </a>
   <br>
-  <a href="mailto:jbstepan@jbstepan.com">Or E-Mail</a>
+  <a href="mailto:contact@jbstepan.com">Or E-Mail</a>
 
   <br>
   <br>
