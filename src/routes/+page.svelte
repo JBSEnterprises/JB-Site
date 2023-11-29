@@ -14,11 +14,6 @@
 
   <NavBar />
 
-
-  <div class="warning">
-    <h2 style="color: white;">Site to be moved to own backend! Please stay tuned! 😎</h2>
-  </div>
-  
   <br>
 
   <img src={logo} width="512" alt="">
