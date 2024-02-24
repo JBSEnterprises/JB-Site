@@ -10,15 +10,16 @@
   import Footer from "../components/Footer.svelte";
 </script>
 
-<main>
+<main class="text-center mt-[6.5rem]">
 
   <NavBar />
   <br>
 
-  <img src={logo} width="512" alt="">
-  <div class="name">
-    <h1>Hi, I'm Jakob or JB</h1>
-    <p>A student and hobbiest programmer</p>
+  <div class="flex justify-center items-center"><img class="" src={logo} width="512" alt=""></div>
+  
+  <div class="m-0 p-[15px] block">
+    <h1 class="text-3xl font-bold p-4">Hi, I'm Jakob or JB</h1>
+    <p class="text-lg p-4">A student and hobbiest programmer</p>
   </div>
 
   <a class="contact-link" style="text-decoration: none;" href="/contact">
@@ -35,7 +36,7 @@
 </main>
 
 <style>
-  :root {
+  /* :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -50,20 +51,20 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
   }
-  
-  main {
+   */
+  /* main {
     text-align: center;
     margin-top: 6.5rem;
-  }
+  } */
 
   .contact-link {
     color: black;
   }
 
-  .name {
+  /* .name {
     margin: 0;
     padding: 15px;
-  }
+  } */
 
   p {
     font-size: large;

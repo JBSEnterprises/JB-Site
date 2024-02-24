@@ -10,19 +10,16 @@
 
 <NavBar />
 
-<main>
+<main class="mt-[6rem] justify-center text-center">
     
-    <CommingSoonCard name="JB Weather" 
-    link="/projects/weather" 
-    desc="JB Weather offers AI enfused weather reports for the common person" 
-    />
+    <div class="p-4 pb-[3rem]">
+        <h1 class="text-4xl">Various things right now, check my Github to follow for updates!</h1> <br>
+        <h1 class="text-4xl">😎</h1>
+    </div>
 
     <Footer />
 </main>
 
 <style>
-    main {
-        margin-top: 6rem;
-        justify-content: center;
-    }
+
 </style>
