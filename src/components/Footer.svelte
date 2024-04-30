@@ -34,7 +34,7 @@
   </a> -->
 
   <footer class="footer">
-    Copyright © Jakob O'Toole Stepan. All rights reserved.
+    Copyright © JB Stepan. All rights reserved.
   </footer>
 </main>
 
