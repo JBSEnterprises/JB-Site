@@ -19,7 +19,3 @@
 
     <Footer />
 </main>
-
-<style>
-
-</style>
