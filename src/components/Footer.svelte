@@ -2,8 +2,8 @@
   import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
 
-<main>
-    <a class="social-icon" href="https://www.github.com/jbstepan">
+<main class="mt-8">
+  <a class="social-icon" href="https://www.github.com/jbstepan">
     <SocialIcons network="github" fgColor="white"/>
   </a>
 
@@ -23,6 +23,9 @@
 
   <a href="https://jbstepan.statuspage.io">
     Status
+  </a> | 
+  <a href="/pgp/jbstepan_public.asc">
+    PGP Key
   </a>
   <!-- -
   <a href="/terms">
