@@ -6,9 +6,9 @@
     import ComingSoon from "../../components/ComingSoon.svelte";
 
     const projects = [
-        { name: "JB Stepan Mods", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus malesuada justo sed ultricies. Curabitur vel mattis risus. Sed at pharetra sapien. Cras euismod dui nec nisi varius, id dapibus tortor consectetur. Morbi imperdiet quam ligula, non imperdiet sapien lacinia vitae. Vivamus ultrices eros eros, vitae sodales nisl gravida vitae. Integer elit augue, interdum nec consectetur non, consequat ullamcorper justo. Donec vitae imperdiet dui. Nullam at velit ut est sodales cursus. Fusce vel enim eu nulla commodo sagittis.", website: "mods.jbstepan.com"},
-        { name: "JB Stepan 1", desc: "A place for mods", website: "mods.jbstepan.com"},
-        { name: "JB Stepan 2", desc: "A place for mods", website: "mods.jbstepan.com"},
+        { name: "JB Stepan Mods", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus malesuada justo sed ultricies. Curabitur vel mattis risus. Sed at pharetra sapien. Cras euismod dui nec nisi varius, id dapibus tortor consectetur. Morbi imperdiet quam ligula, non imperdiet sapien lacinia vitae. Vivamus ultrices eros eros, vitae sodales nisl gravida vitae. Integer elit augue, interdum nec consectetur non, consequat ullamcorper justo. Donec vitae imperdiet dui. Nullam at velit ut est sodales cursus. Fusce vel enim eu nulla commodo sagittis.", website: "google.com"},
+        { name: "JB Stepan 1", desc: "A place for mods", website: "google.com"},
+        { name: "JB Stepan 2", desc: "A place for mods", website: "google.com"},
     ]
 
 </script>
