@@ -7,7 +7,7 @@
 <div class="basis-[25%] rounded-lg bg-[#4a4a4a] p-3 text-pretty text-start border-black">
     <h1 class="text-3xl font-bold">{name}</h1>
     <p class=" mt-1 mb-1">{desc}</p>
-    <a class="no-underline font-bold" href="{website}">Link</a>
+    <a class="no-underline font-bold" href="https://{website}">Link</a>
 </div>
 
 <style>
