@@ -1,7 +1,12 @@
 <script lang="ts">
-    import CommingSoonCard from "../../components/CommingSoonCard.svelte";
     import NavBar from "../../components/NavBar.svelte";
     import Footer from "../../components/Footer.svelte";
+    import ProjectCard from "../../components/ProjectCard.svelte";
+
+    const projects = [
+        { name: "WeatherInbox", desc: "Get a daily email with your personalized forecast of the weather. This is currently in pre production, but I have a newsletter for those interested. 😁", website: "weatherinbox.net"},
+    ]
+
 </script>
 
 <svelte:head>
@@ -10,11 +15,12 @@
 
 <NavBar />
 
-<main class="mt-[6rem] justify-center text-center">
+<main class="mt-[6rem]">
     
-    <div class="p-4 pb-[3rem]">
-        <h1 class="text-4xl">Various things right now, check my Github to follow for updates!</h1> <br>
-        <h1 class="text-4xl">😎</h1>
+    <div class="flex justify-center flex-row flex-wrap gap-6 mt-4">
+        { #each projects as pro }
+            <ProjectCard name={pro.name} desc={pro.desc} website={pro.website} />
+        {/each}
     </div>
 
     <Footer />
