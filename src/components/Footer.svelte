@@ -21,7 +21,7 @@
 
   <br>
 
-  <a href="https://jbstepan.statuspage.io">
+  <a href="https://status.jbstepan.com">
     Status
   </a> | 
   <a href="/pgp/jbstepan_public.asc">
