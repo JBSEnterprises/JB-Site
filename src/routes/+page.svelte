@@ -25,7 +25,7 @@
     <button class="contactbtn">📩 Get in touch</button>
   </a>
   <br>
-  <a class="mt-4" href="mailto:jbstepan@jbstepan.com">Or E-Mail</a>
+  <a class="mt-4" href="mailto:contact@jbstepan.com">Or E-Mail</a>
   
   <Footer />
   
