@@ -1,20 +1,14 @@
-import adapter from '@sveltejs/adapter-cloudflare';
+import adapter from "@sveltejs/adapter-cloudflare";
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-export default {
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	preprocess: vitePreprocess(),
+
 	kit: {
-		adapter: adapter({
-			// See below for an explanation of these options
-			routes: {
-				include: ['/*'],
-				exclude: ['<all>']
-			},
-			platformProxy: {
-				configPath: 'wrangler.toml',
-				environment: undefined,
-				experimentalJsonConfig: false,
-				persist: false
-			}
-		})
+
+		adapter: adapter()
 	}
 };
 
+export default config;

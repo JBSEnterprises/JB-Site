@@ -1,4 +1,5 @@
 <script>
+  // @ts-ignore
   import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
 

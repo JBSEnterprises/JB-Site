@@ -2,7 +2,7 @@
 
 </script>
 
-<ul class="nav">
+<ul class="nav mb-3">
     <li id="navcomp" class="navItem"><a href="/">Home</a></li>
     <li id="navcomp" class="navItem"><a href="/projects">Projects</a></li>
     <li id="navcomp" class="navItem"><a href="/contact">Contact</a></li>

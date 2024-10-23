@@ -13,7 +13,6 @@
 <main class="text-center mt-[6.5rem]">
 
   <NavBar />
-  <br>
 
   <div class="flex justify-center items-center"><img class="" src={logo} width="512" alt=""></div>
   
@@ -26,10 +25,7 @@
     <button class="contactbtn">📩 Get in touch</button>
   </a>
   <br>
-  <a href="mailto:jbstepan@jbstepan.com">Or E-Mail</a>
-
-  <br>
-  <br>
+  <a class="mt-4" href="mailto:jbstepan@jbstepan.com">Or E-Mail</a>
   
   <Footer />
   
