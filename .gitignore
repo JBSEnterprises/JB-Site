@@ -1,14 +1,27 @@
-.DS_Store
-node_modules
-/build
+/node_modules
+.npmrc
+package-lock.json
+
+# Output
+.output
+.vercel
 /.svelte-kit
-/package
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
 .env.*
 !.env.example
+!.env.test
+
+# Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-package-lock.json
-/public
 
-# Firebase
+# wrangler files
+.wrangler
+.dev.vars

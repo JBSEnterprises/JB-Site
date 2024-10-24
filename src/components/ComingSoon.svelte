@@ -2,7 +2,7 @@
     import Construct from "../images/construct.png"
 
     export let pageName = ""
-    export let backLink = "" || "/projects"
+    export let backLink = "/projects"
 </script>
 
 <main>
