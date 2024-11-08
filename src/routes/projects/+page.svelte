@@ -12,7 +12,7 @@
 
     const projects: Projects[] = [
         { name: "WeatherInbox", desc: "Get a daily email with your personalized forecast of the weather. This is currently in pre production, but I have a newsletter for those interested. 😁", website: "weatherinbox.net"},
-        { name: "Space Sandbox Horror Game", desc: "A pre-devolpment game thats sorta based on Notch's 0x10c", website: "https://docs.google.com/document/d/11Eh1xEB5yGuwP5X0yzdB5Yr-tdTRQDIDHENpDWC5PFg/edit?usp=sharing" }
+        { name: "Space Sandbox Horror Game", desc: "A pre-devolpment game thats sorta based on Notch's 0x10c", website: "docs.google.com/document/d/11Eh1xEB5yGuwP5X0yzdB5Yr-tdTRQDIDHENpDWC5PFg/edit?usp=sharing" }
     ]
 
 </script>
