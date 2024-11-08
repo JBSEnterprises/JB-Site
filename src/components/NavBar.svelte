@@ -2,43 +2,9 @@
 
 </script>
 
-<ul class="nav mb-3">
-    <li id="navcomp" class="navItem"><a href="/">Home</a></li>
-    <li id="navcomp" class="navItem"><a href="/projects">Projects</a></li>
-    <li id="navcomp" class="navItem"><a href="/contact">Contact</a></li>
-    <li id="navcomp" class="navItem"><a href="https://medium.com/@jbstepan">Blog</a></li>
+<ul class="mb-3 top-4 fixed w-[100%] mx-auto left-0 p-0 list-none overflow-hidden text-center">
+    <li id="navcomp" class="inline text-blue-500"><a class="no-underline font-bold inline-block px-4 py-1 scale-100 transition duration-500 hover:scale-150 hover:to-blue-200" href="/">Home</a></li>
+    <li id="navcomp" class="inline text-blue-500"><a class="no-underline font-bold inline-block px-4 py-1 scale-100 transition duration-500 hover:scale-150 hover:to-blue-200" href="/projects">Projects</a></li>
+    <li id="navcomp" class="inline text-blue-500"><a class="no-underline font-bold inline-block px-4 py-1 scale-100 transition duration-500 hover:scale-150 hover:to-blue-200" href="/contact">Contact</a></li>
+    <li id="navcomp" class="inline text-blue-500"><a class="no-underline font-bold inline-block px-4 py-1 scale-100 transition duration-500 hover:scale-150 hover:to-blue-200" href="https://medium.com/@jbstepan">Blog</a></li>
 </ul>
-
-<style>
-    ul {
-        list-style-type: none;
-        margin: 0 auto;
-        padding: 0;
-        overflow: hidden;
-        text-align: center;
-        position: fixed;
-        left: 0;
-        top: 15px;
-        width: 100%;
-        background-color: #242424;  
-    }
-
-    li {
-        display: inline;
-    }
-
-    li a {
-        transition: 500ms;
-        padding: 4px 15px;
-        color: rgb(78, 72, 232);
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        scale: 1;
-    }
-
-    li a:hover {
-        color: rgb(128, 124, 242);
-        scale: 1.5;
-    }
-</style>

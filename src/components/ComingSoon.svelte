@@ -1,8 +1,8 @@
 <script lang="ts">
     import Construct from "../images/construct.png"
 
-    export let pageName = ""
-    export let backLink = "/projects"
+    let { pageName="", backLink=""} = $props()
+
 </script>
 
 <main>

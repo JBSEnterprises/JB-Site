@@ -1,10 +1,6 @@
-/node_modules
-.npmrc
-package-lock.json
-
-# Output
-.output
-.vercel
+.DS_Store
+node_modules
+/build
 /.svelte-kit
 /build
 
