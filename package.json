@@ -1,16 +1,6 @@
 {
   "name": "jb-site",
   "version": "0.0.1",
-  "type": "module",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "npm run build && wrangler pages dev",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "deploy": "npm run build && wrangler pages deploy",
-    "cf-typegen": "wrangler types && move worker-configuration.d.ts src/"
-  },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241106.0",
     "@sveltejs/adapter-auto": "^3.0.0",
@@ -25,7 +15,14 @@
     "vite": "^5.0.3",
     "wrangler": "^3.85.0"
   },
-  "dependencies": {
-    "@rodneylab/svelte-social-icons": "^0.0.30"
-  }
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && wrangler pages dev",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "deploy": "npm run build && wrangler pages deploy",
+    "cf-typegen": "wrangler types && move worker-configuration.d.ts src/"
+  },
+  "type": "module"
 }
