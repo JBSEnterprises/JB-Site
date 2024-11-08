@@ -1,6 +1,11 @@
 #:schema node_modules/wrangler/config-schema.json
+<<<<<<< HEAD
 name = "jb-site"
 compatibility_date = "2024-11-06"
+=======
+name = "jbsite-2"
+compatibility_date = "2024-10-22"
+>>>>>>> 13ee8a1e853cbb2f629e2f6753cbd3db3701d6fb
 pages_build_output_dir = ".svelte-kit/cloudflare"
 
 # Automatically place your workloads in an optimal location to minimize latency.
