@@ -1,25 +1,17 @@
 <script>
   // @ts-ignore
-  import SocialIcons from '@rodneylab/svelte-social-icons';
+  import X from "../images/x.svg"
+  import Github from "../images/github.svg"
 </script>
 
 <main class="mt-8">
-  <a class="social-icon" href="https://www.github.com/jbstepan">
-    <SocialIcons network="github" fgColor="white"/>
+  <a href="https://www.x.com/jbstepan">
+    <img class="inline-block w-7 m-1" src={X} alt="">
   </a>
 
-  <a class="social-icon" href="https://www.twitter.com/jbstepan">
-    <SocialIcons network="twitter" fgColor="white"/>
+  <a href="https://www.github.com/jbstepan">
+    <img class="inline-block w-7 m-1" src={Github} alt="">
   </a>
-
-  <a class="social-icon" href="https://medium.com/@jbstepan">
-    <SocialIcons network="medium" fgColor="white"/>
-  </a>
-
-  <!-- <a class="social-icon" href="https://discord.com/invite/9xJEzqYNQ7">
-    <SocialIcons network="discord" fgColor="white"/>
-  </a> -->
-
   <br>
 
   <a href="https://status.jbstepan.com">
@@ -28,21 +20,11 @@
   <a href="/pgp/jbstepan_public.asc">
     PGP Key
   </a>
-  <!-- -
-  <a href="/terms">
-    Terms
-  </a>
-  -
-  <a href="/privacy-policy">
-    Privacy Policy
-  </a> -->
 
   <footer class="footer">
     Copyright © JB Stepan. All rights reserved.
   </footer>
 </main>
-
-
 
 <style>
 main {
