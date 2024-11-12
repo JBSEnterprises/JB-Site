@@ -24,5 +24,8 @@
     "deploy": "npm run build && wrangler pages deploy",
     "cf-typegen": "wrangler types && move worker-configuration.d.ts src/"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "highlight.js": "^11.10.0"
+  }
 }
