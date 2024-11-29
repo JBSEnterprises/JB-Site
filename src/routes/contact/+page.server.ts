@@ -2,10 +2,34 @@ import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
 
 export const actions = {
-    default: async ({ request }) => {
-        console.log("asdasdas")
-        const webhook = "https://discord.com/api/webhooks/1304880809156673588/CO_5a19l_uoK5sJkcXahKlug1xol46Skm8cNaGje6hY1cbWNtEUdI1oAJH_-xXY1FKzN"
+    default: async ({ request, platform }) => {
         const formData = await request.formData()
+
+        // Handle Turnstile logic
+        const turnstileURL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
+        const token = formData.get('cf-turnstile-response');
+        const ip = request.headers.get('CF-Connecting-IP');
+
+        const result = await fetch(turnstileURL, {
+            body: JSON.stringify({
+              secret: platform?.env.TURNSTILEKEY,
+              response: token,
+              remoteip: ip
+            }),
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            }
+        });
+
+        const outcome = await result.json()
+        
+        // Ignore the error
+        if(!outcome.success) {
+            return { success: false, turnstilefail: true }
+        }
+
+        const webhook = "https://discord.com/api/webhooks/1304880809156673588/CO_5a19l_uoK5sJkcXahKlug1xol46Skm8cNaGje6hY1cbWNtEUdI1oAJH_-xXY1FKzN"
         const email = formData.get("email")
         const name = formData.get("name")
         const subject = formData.get("subject")

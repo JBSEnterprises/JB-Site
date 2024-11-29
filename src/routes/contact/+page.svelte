@@ -15,6 +15,7 @@
 
 <svelte:head>
   <title>Contact</title>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </svelte:head>
 
 <NavBar />
@@ -48,7 +49,16 @@
         {#if body?.length! >= 1024}<p class="text-red-500">Body is too big! {body?.length} of 1024</p>{/if}
       </div>
 
-      <div class="text-center">
+      <!--Cloudflare Turnstile-->
+      <div
+      class="cf-turnstile"
+      data-sitekey="0x4AAAAAAAIcvQYrT7rgRHGo"
+      data-size="flexible"
+      data-theme="dark"
+      ></div>
+      {#if form?.turnstilefail == true}<p class="text-red-500">Captcha failure!</p>{/if}
+
+      <div class="text-center mt-6">
         <button class="text-black p-2 px-4 rounded-md bg-white outline-none scale-100 transition duration-200 hover:bg-slate-200 hover:scale-105" type="submit">Submit</button>
       </div>
     </form>
