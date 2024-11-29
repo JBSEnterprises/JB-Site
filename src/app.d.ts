@@ -3,9 +3,14 @@
 declare global {
 	namespace App {
         interface Platform {
-            env: Env
+            env: {
+                TURNSTILEKEY: String;
+            };
             cf: CfProperties
             ctx: ExecutionContext
+            context: {
+                waitUntil(promise: Promise<any>): void;
+            };
         }
     }
 }

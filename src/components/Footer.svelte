@@ -2,6 +2,7 @@
   // @ts-ignore
   import X from "../images/x.svg"
   import Github from "../images/github.svg"
+  import Bluesky from "../images/bluesky.svg"
 </script>
 
 <main class="mt-8">
@@ -11,6 +12,10 @@
 
   <a href="https://www.github.com/jbstepan">
     <img class="inline-block w-7 m-1" src={Github} alt="">
+  </a>
+
+  <a href="https://bsky.app/profile/jbstepan.com">
+    <img class="inline-block w-7 m-1" src={Bluesky} alt="">
   </a>
   <br>
 
