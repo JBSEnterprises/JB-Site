@@ -5,7 +5,7 @@ export const actions = {
     default: async ({ request, platform }) => {
         const formData = await request.formData()
 
-        // Handle Turnstile logic
+        /// Handle Turnstile logic
         const turnstileURL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
         const token = formData.get('cf-turnstile-response');
         const ip = request.headers.get('CF-Connecting-IP');
@@ -25,10 +25,11 @@ export const actions = {
         const outcome = await result.json()
         
         // Ignore the error
-        if(!outcome.success) {
+        if(outcome.success == false) {
             return { success: false, turnstilefail: true }
         }
 
+        /// Handle submitting
         const webhook = "https://discord.com/api/webhooks/1304880809156673588/CO_5a19l_uoK5sJkcXahKlug1xol46Skm8cNaGje6hY1cbWNtEUdI1oAJH_-xXY1FKzN"
         const email = formData.get("email")
         const name = formData.get("name")
@@ -36,7 +37,7 @@ export const actions = {
         const body = formData.get("content")
         
         if(body?.toString().length! >= 1024 || email?.toString().length! >= 256 || subject?.toString().length! >= 256 || name?.toString().length! >= 256) {
-                return fail(400, { body, email, name, subject })
+            return fail(400, { body, email, name, subject })
         }
 
         const content = {
@@ -80,6 +81,6 @@ export const actions = {
             body: JSON.stringify(content)
         })
 
-        return { success: true }
+        return { success: true, turnstilefail: false }
     }
 } satisfies Actions;
